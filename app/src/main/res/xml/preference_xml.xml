@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="true">
+
+
+        <!-- You can place more preferences here that will be shown on the next screen. -->
+        <PreferenceCategory android:title="Configuration">
+            <ListPreference
+                android:key="coc_screen_time_out"
+                android:title="Screen Time out"
+                android:summary="Enter the Screen timeout of your phone."
+                android:dialogTitle="Timeout Time in Sec(s)"
+                android:entries="@array/screen_time_out"
+                android:entryValues="@array/screen_time_out_values"
+                />
+            <ListPreference
+                android:key="coc_resource_collection_interval"
+                android:title="Resource Collection Time Interval"
+                android:dialogTitle="Resource Collection Time Interval"
+                android:entries="@array/resource_time_interval"
+                android:entryValues="@array/resource_time_interval_values" />
+        </PreferenceCategory>
+
+
+</PreferenceScreen>

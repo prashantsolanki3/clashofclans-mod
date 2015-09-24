@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CoC Auto Collection Mod</string>
+
+    <string-array name="screen_time_out">
+        <item name="1">10 Sec or less</item>
+        <item name="2">15 Sec</item>
+        <item name="3">20 Sec</item>
+        <item name="4">30 Sec</item>
+        <item name="5">1 Min</item>
+        <item name="6">2 Min or more</item>
+    </string-array>
+
+    <string-array name="screen_time_out_values">
+        <item name="1">5000</item>
+        <item name="2">10000</item>
+        <item name="3">15000</item>
+        <item name="4">25000</item>
+        <item name="5">55000</item>
+        <item name="6">115000</item>
+    </string-array>
+
+
+
+    <string-array name="resource_time_interval">
+        <item name="1">10 min</item>
+        <item name="2">15 min</item>
+        <item name="3">20 min</item>
+        <item name="4">30 min</item>
+        <item name="5">45 min</item>
+    </string-array>
+
+    <string-array name="resource_time_interval_values">
+        <item name="1">600000</item>
+        <item name="2">900000</item>
+        <item name="3">1200000</item>
+        <item name="4">1800000</item>
+        <item name="5">2700000</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

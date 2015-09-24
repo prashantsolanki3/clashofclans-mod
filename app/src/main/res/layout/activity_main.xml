@@ -1,0 +1,53 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/action_startapp"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:onClick="startService"
+        android:layout_gravity="center_horizontal"
+        android:background="#1E88E5"
+        android:text= "Open Clash of Clans" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/action_learn_more"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#1E88E5"
+        android:onClick="openHowTo"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="Learn how to run this hack" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/action_settings"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:onClick="openSetting"
+        android:background="#1E88E5"
+        android:text= "Preferences" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/action_about"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:text="About" />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
